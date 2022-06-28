@@ -84,7 +84,7 @@
         "ignorePackages",
         {
           "js": "never",
-          "jsx": "never",
+          "jsx": "never"
         }
       ],
       // prettier
@@ -96,7 +96,9 @@
           "trailingComma": "all",
           "printWidth": 100,
           "tabWidth": 2,
-          "tabs": false
+          "tabs": false,
+          "useTabs": false,
+          "endOfLine":"auto"
         }
       ]
     }
